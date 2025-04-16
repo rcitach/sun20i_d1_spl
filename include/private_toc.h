@@ -154,7 +154,7 @@ typedef struct SBROM_TOC0_ITEM_info {
 #define ITEM_SCP_NAME			"scp"
 #define ITEM_MONITOR_NAME		"monitor"
 #define ITEM_UBOOT_NAME			"u-boot"
-#define ITEM_RTOS_NAME			"freertos"
+#define ITEM_RTOS_NAME			"kernel"
 #define ITEM_MELIS_NAME			"melis"
 #define ITEM_MELIS_GZ_NAME		"melis-gz"
 #define ITEM_MELIS_LZ4_NAME		"melis-lz4"

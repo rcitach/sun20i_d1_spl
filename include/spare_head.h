@@ -62,7 +62,7 @@
 #define BOOT0_EMMC3_BACKUP_START_ADDR           (512)
 
 
-#define UBOOT_START_SECTOR_IN_SDMMC             (32800)
+#define UBOOT_START_SECTOR_IN_SDMMC             (112)
 #define UBOOT_BACKUP_START_SECTOR_IN_SDMMC      (24576)
 
 
