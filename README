@@ -3,9 +3,10 @@ NOTE: This project is obsolete now that U-Boot SPL is working.
 https://github.com/smaeul/u-boot/releases/tag/d1-2022-10-31
 
 You can use any riscv64 ELF/GNU/musl toolchain.
+such as: https://github.com/RT-Thread/rt-thread/releases/download/v5.2.0/riscv64gc-linux-musleabi_for_x86_64-pc-linux-gnu_252938-345d8b6e45.tar.bz2
 
 1.build mmc
-make CROSS_COMPILE=riscv64-linux-musl- p=sun20iw1p1 mmc
+make CROSS_COMPILE=riscv64-unknown-linux-musl- p=sun20iw1p1 mmc
 
 2.build nand
 make CROSS_COMPILE=riscv64-linux-musl- p=sun20iw1p1 nand

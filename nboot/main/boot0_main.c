@@ -117,10 +117,10 @@ void main(void)
 	}
 
 	mmu_disable( );
-
+	
 	printf("Jump to second Boot.\n");
 	if (opensbi_base) {
-			boot0_jmp_opensbi(opensbi_base, dtb_base, uboot_base);
+			boot0_jmp_opensbi(opensbi_base, dtb_base, rtos_base);
 	} else if (monitor_base) {
 		struct spare_monitor_head *monitor_head =
 			(struct spare_monitor_head *)((phys_addr_t)monitor_base);

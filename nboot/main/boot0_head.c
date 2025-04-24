@@ -82,7 +82,7 @@ const boot0_file_head_t  BT0_head = {
 			0x34000000,
 		},
 		/*__s32	uart_port;*/
-		3,
+		0, //3 -> True
 		/*normal_gpio_cfg   uart_ctrl[2];*/
 		{
 			{7, 9, 5, 1, 0xff, 0xff, {0} }, /*PG9: 14--RX*/
